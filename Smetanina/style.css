@@ -1,0 +1,16 @@
+h1{
+    color: rgb(99, 27, 93);
+    
+}
+.a{
+    color: rgb(172, 100, 82);
+    font-size: 100px;
+    background-color: #50a536;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #178da1;
+    border-left: 24px solid rgb(94, 72, 72);
+    border-radius: 100%;
+}
