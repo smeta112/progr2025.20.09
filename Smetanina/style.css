@@ -4,13 +4,33 @@ h1{
 }
 .a{
     color: rgb(172, 100, 82);
-    font-size: 100px;
-    background-color: #50a536;
+    font-size: 100px; /* размер шрифта */
+    background-color: #50a536;/* цвет фона */
 }
 div{
-    width: 200px;
-    height: 200px;
+    width: 200px;/* ширина */
+    height: 200px;/* высота */
     background-color: #178da1;
-    border-left: 24px solid rgb(94, 72, 72);
-    border-radius: 100%;
+    border-left: 24px solid rgb(94, 72, 72);/* граница но только слева */
+    border-radius: 100%;/*  круг закругляет углы*/
 }
+.b{
+    width: 100px;
+    height: 100px;
+    background: rgba(21, 199, 152, 0.628);/* цвет квадрата */
+    margin-top: 10px;/* отступ внешний верх*/
+    margin-right: 20PX;/* отступ внешний право*/
+    margin-bottom: 10px;/* отступ внешний низ*/
+    margin-left: 22px;/* отступ внешний лево*/
+    margin: 10px 20px 10px 22px;/* отступ внешний все */
+    margin: 10px;/* отступ внешний все */
+    margin: 10px 30px;/* отступ внешний 2 по верт 2 по гор */
+}
+a{
+    color: white;
+    background: blue;
+    text-decoration: none;/*чтобы ссылка не подчеркивалась  */
+    padding: 10px 20px;/* врутренний отступ чтоб и ссылка работала вне текста */
+}
+
+/*  */
